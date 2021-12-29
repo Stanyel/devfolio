@@ -3,19 +3,19 @@ module.exports = {
     // Site URL for when it goes live
     siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Stanley Galloway',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Stanley Galloway | EE Undergrad · University of Pittsburgh`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `About me`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+   //    author: `@rfitzio`,
     // Optional: Github account URL
     github: `https://github.com/ryanfitzgerald`,
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: 'More about me',
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -40,19 +40,23 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Hardware Engineering Co-op',
+        description: 'ZOLL Medical Corportation | Spring 2021 and Fall 2021',
+        link: 'not yet :)',
+        duty: 'Contributed to R&D behind an automated, wearable cardioverter defibrillator created to protect patients at risk of sudden cardiac arrest',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
+        name: 'Undergraduate Student Researcher',
+        description: 'University of Pittsburgh School of Heath and Rehabilitation Sciences | Summer 2021',
         link: 'https://github.com/RyanFitzgerald/devfolio',
+        duty: 'Designed and programmed a wheel chair monitoring device to collect environmental data. Additional focus on implementing an embedded, programmable MCU and low-power optimization',
+
       },
       {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
+        name: 'Pitt SailBot',
+        description: 'Founding President | February 2019 - Present',
         link: 'https://github.com/RyanFitzgerald/devfolio',
+        duty: 'Fouding President of Pitt SailBot, an organization where students design, code, and fabricate an autonomous sailboat to compete in the annual International Robotic Sailing Regatta.',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
@@ -73,7 +77,8 @@ module.exports = {
       },
     ],
   },
-  plugins: [
+    plugins: [
+
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -132,7 +137,7 @@ module.exports = {
         theme_color: `#663399`, // This color appears on mobile
         display: `minimal-ui`,
         icon: `src/images/icon.png`,
-      },
+        },
     },
   ],
 };
