@@ -85,6 +85,10 @@ exports.createSchemaCustomization = ({ actions }) => {
       description: String!
       link: String!
       duty: String!
+      bullets: String!
+      bullets2: String
+      bullets3: String
+      bulletsCheck: String
     }
 
     type MarkdownRemark implements Node {
