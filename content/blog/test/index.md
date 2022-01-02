@@ -5,4 +5,4 @@ description: 'Embedded system that monitors environmental data on wheelchairs'
 ---
 
 ### WheelTrak
-![WheelTrack](./wheeltrak.png)
+![WheelTrack](./wheeltrak.jpg)
