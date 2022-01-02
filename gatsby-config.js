@@ -49,26 +49,51 @@ module.exports = {
                   collection of high-voltage critical system operations',
         bullets: 'Wrote then ran system wide compliance tests for a class 3 medical\
                   device in accordance with FDA standards and protocols',
-      },
-      { 
+            bullets2:'please',  //This worked fine but I cant figure out where I can make these field "non-nullable" sooooooooooooooooo
+            bullets3: 'please',
+            bulletsCheck: 'please',
+        },
+        {
+        name: 'Pitt SailBot',
+        description: 'Founding President | February 2019 - Present',
+        link: 'https://www.linkedin.com/company/pitt-sailbot',
+        duty: 'President and founder of Pitt SailBot, an organization where students design, code, and fabricate an autonomous sailboat to compete in the annual International Robotic Sailing Regatta.',
+        bullets: 'Co-wrote proposal for university sponsorship, recruited faculty administrator and defended a proposal to receive university accreditation as an intramural organization',
+        bullets2: 'Developed requirements and tested implementations of automation software, RF- based hardware, and environmental sensing systems',
+            bullets3: 'please',
+            bulletsCheck: 'please',
+        },
+        { 
         name: 'Undergraduate Student Researcher',
         description: 'University of Pittsburgh School of Heath and Rehabilitation Sciences | Summer 2021',
         link: 'https://www.shrs.pitt.edu/',
         duty: 'Designed and programmed a wheel chair monitoring device to collect environmental data.',
         bullets: 'Controlled 3 peripheral sensors using an embedded MCU',
         bullets2: 'Optimized system for low-power consumption',
-        bullets3: 'Programmed using MCU with C++, interfaced on-board devices using I2C',
-
-      },
-      {
-        name: 'Pitt SailBot',
-        description: 'Founding President | February 2019 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-          duty: 'Fouding President of Pitt SailBot, an organization where students design, code, and fabricate an autonomous sailboat to compete in the annual International Robotic Sailing Regatta.',
-          bullets: 'test',
-          bullets2: 'test2',
-          bullets3: 'test3',
-      },
+            bullets3: 'Programmed MCU with C++, interfaced on-board devices using I2C',
+            bulletsCheck: 'please',
+        },
+        {
+        name: 'Electrical Engineering Intern',
+        description: 'Jacobs GPSC Rapid Solutions | Summer 2020',
+        link: 'http://www.jacobs.com/',
+        duty: 'Worked on a team designing, testing, and fabricating peripheral electronics for RF based hardware alongside professional Electrical Engineers',
+        bullets: 'Designed and fabricated a PCB for testing an RF Diplexer using Altium and PCB laser etching',
+            bullets2: 'Tested peripheral components for an on-board LCD screen which managed power and data input via SPI',
+            bullets3: 'please',
+            bulletsCheck: 'please',
+        },
+        {
+            name: 'Design Intern',
+            description: 'Farr Yacht Desgin | Fall 2017',
+            link: 'http://www.farrdesign.com/',
+            duty: 'Developed computer models of yacht hulls and conducted analysis of alternatives of industry rigging hardware to optimize performance',
+            bullets:'please',
+            bullets2:'please',
+            bullets3:'please',
+            bulletsCheck: 'please',
+        }
+        
     ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [

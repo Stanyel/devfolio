@@ -14,7 +14,7 @@ const classes = {
 };
 
 
-const SummaryItem = ({ name, description, duty, bullets, bullets2, bullets3, bulletsCheck,  link = false, internal = false }) => {
+const SummaryItem = ({ name, description, duty, bullets, bullets2, bullets3, bulletsCheck, link = false, internal = false }) => {
     let linkContent;
     if (internal) {
         linkContent = <Link to={link}>{name}</Link>;
@@ -22,7 +22,7 @@ const SummaryItem = ({ name, description, duty, bullets, bullets2, bullets3, bul
         linkContent = <a href={link}>{name}</a>;
     }
 
-    if (bullets3 != bulletsCheck) {
+    if (bullets3 !== bulletsCheck) {
         //Create 3 bullet points
         return (
             <div className={classes.wrapper}>
@@ -46,7 +46,7 @@ const SummaryItem = ({ name, description, duty, bullets, bullets2, bullets3, bul
             </div>
         );
     }
-    else if (bullets2 != bulletsCheck) {
+    else if (bullets2 !== bulletsCheck) {
         //Create 2 bullet points
         return (
             <div className={classes.wrapper}>
@@ -69,7 +69,7 @@ const SummaryItem = ({ name, description, duty, bullets, bullets2, bullets3, bul
             </div>
         );
     }
-    else if (bullets != bulletsCheck) {
+    else if (bullets !== bulletsCheck) {
         //Create 1 bullet point
         return (
             <div className={classes.wrapper}>
@@ -91,7 +91,7 @@ const SummaryItem = ({ name, description, duty, bullets, bullets2, bullets3, bul
             </div>
         );
     }
-    else if (duty != bulletsCheck) {
+    else if (duty !== bulletsCheck) {
         //Create only the duty section
         return (
             <div className={classes.wrapper}>
@@ -104,7 +104,7 @@ const SummaryItem = ({ name, description, duty, bullets, bullets2, bullets3, bul
                 <p className={classes.description}>{description}</p>
                 <div className={classes.wrapper} style={spacing}>
                     <ul>
-                        <li><p className={classes.description}>{duty}</p></li>
+                        <li><p className={classes.duty}>{duty}</p></li>
                     </ul>
                 </div>
             </div>
