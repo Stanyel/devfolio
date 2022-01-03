@@ -46,7 +46,7 @@ module.exports = {
         name: 'Hardware Engineering Co-op',
         description: 'ZOLL Medical Corportation | Spring 2021 and Fall 2021',
         link: 'https://lifevest.zoll.com/',
-        duty: 'Contributed to R&D behind an automated, wearable cardioverter defibrillator created to protect patients at risk of sudden cardiac arrest',
+        duty: 'Contributed to R&D behind an automated wearable cardioverter defibrillator created to protect patients at risk of sudden cardiac arrest',
         bullets2: 'Designed multiple PCBs to streamline testing and data\
                   collection of high-voltage critical system operations',
         bullets: 'Wrote then ran system wide compliance tests for a class 3 medical\
@@ -60,7 +60,7 @@ module.exports = {
         description: 'Founding President | February 2019 - Present',
         link: 'https://www.linkedin.com/company/pitt-sailbot',
         duty: 'President and founder of Pitt SailBot, an organization where students design, code, and fabricate an autonomous sailboat to compete in the annual International Robotic Sailing Regatta.',
-        bullets: 'Co-wrote proposal for university sponsorship, recruited faculty administrator and defended a proposal to receive university accreditation as an intramural organization',
+        bullets: 'Co-wrote proposal for university sponsorship, recruited faculty administrator, and defended a proposal to receive university accreditation as an intramural organization',
         bullets2: 'Developed requirements and tested implementations of automation software, RF- based hardware, and environmental sensing systems',
             bullets3: 'please',
             bulletsCheck: 'please',
