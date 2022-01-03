@@ -22,22 +22,22 @@ module.exports = {
       {
         name: 'WheelTrak',
             description: '',
-            link: 'http://localhost:8000/blog/Wheeltrak/',
+            link: 'http://stangalloway.com/blog/Wheeltrak/',
       },
       {
         name: 'ECG Signal Recovery Timer',
         description:'',
-          link: 'http://localhost:8000/blog/ECGRT/',
+          link: 'http://stangalloway.com/blog/ECGRT/',
         },
         {
             name: "Remote Falloff ECG Fixture",
             description: '',
-            link: 'http://localhost:8000/blog/RemoteFalloff/',
+            link: 'http://stangalloway.com/blog/RemoteFalloff/',
         },
       {
         name: 'SailBot: Ship Happens',
           description: '',
-          link: 'http://localhost:8000/blog/ShipHappens/',
+          link: 'http://stangalloway.com/blog/ShipHappens/',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
