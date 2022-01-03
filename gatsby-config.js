@@ -1,13 +1,13 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
+        siteURL: 'https://stangalloway.io/',
     // Your Name
     name: 'Stanley Galloway',
     // Main Site Title
     title: `Stanley Galloway | EE Undergrad | University of Pittsburgh`,
     // Description that goes under your name in main bio
-    description: `About me`,
+    description: `Electrical Engineering Undergrad at the University of Pittsburgh | SNG34@pitt.edu`,
     // Optional: Twitter account handle
    //    author: `@lolnah`,
     // Optional: Github account URL
@@ -16,26 +16,28 @@ module.exports = {
         linkedin: `https://www.linkedin.com/in/stanley-galloway/`,
 
     // Content of the About Me section
-    about: 'More about me',
+    about: '',
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
-        description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'WheelTrak',
+            description: '',
+            link: 'http://localhost:8000/blog/Wheeltrak/',
       },
       {
-        name: 'ChromeExtensionKit',
-        description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
-      },
+        name: 'ECG Signal Recovery Timer',
+        description:'',
+          link: 'http://localhost:8000/blog/ECGRT/',
+        },
+        {
+            name: "Remote Falloff ECG Fixture",
+            description: '',
+            link: 'http://localhost:8000/blog/RemoteFalloff/',
+        },
       {
-        name: 'Another Cool Project',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'SailBot: Ship Happens',
+          description: '',
+          link: 'http://localhost:8000/blog/ShipHappens/',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
