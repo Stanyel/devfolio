@@ -38,7 +38,17 @@ module.exports = {
         name: 'SailBot: Ship Happens',
           description: '',
           link: 'http://stangalloway.com/blog/ShipHappens/',
-      },
+        },
+        {
+            name: 'RF Attenuation Test Board',
+            description: '',
+            link: 'http://stangalloway.com/blog/Atten/',
+        },
+        //{
+        //    name: 'Pittsburgh SOAR',
+        //    description: 'A club that competes in the annual Big Idea Challenge hosted by NASA, the 2022 challenge is extreme terrain access for mobility platforms',
+        //    link:'',
+        //},
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
@@ -56,10 +66,10 @@ module.exports = {
             bulletsCheck: 'please',
         },
         {
-        name: 'Pitt SailBot',
+        name: 'SailBot at Pitt',
         description: 'Founding President | February 2019 - Present',
         link: 'https://www.linkedin.com/company/pitt-sailbot',
-        duty: 'President and founder of Pitt SailBot, an organization where students design, code, and fabricate an autonomous sailboat to compete in the annual International Robotic Sailing Regatta.',
+        duty: 'President and founder of SailBot at Pitt, an organization where students design, code, and fabricate an autonomous sailboat to compete in the annual International Robotic Sailing Regatta.',
         bullets: 'Co-wrote proposal for university sponsorship, recruited faculty administrator, and defended a proposal to receive university accreditation as an intramural organization',
         bullets2: 'Developed requirements and tested implementations of automation software, RF- based hardware, and environmental sensing systems',
             bullets3: 'please',
@@ -80,7 +90,7 @@ module.exports = {
         description: 'Jacobs GPSC Rapid Solutions | Summer 2020',
         link: 'http://www.jacobs.com/',
         duty: 'Worked on a team designing, testing, and fabricating peripheral electronics for RF based hardware alongside professional Electrical Engineers',
-        bullets: 'Designed and fabricated a PCB for testing an RF Diplexer using Altium and PCB laser etching',
+        bullets: 'Designed and fabricated a PCB for testing an RF attenuator using Altium and PCB laser etching',
             bullets2: 'Tested peripheral components for an on-board LCD screen which managed power and data input via SPI',
             bullets3: 'please',
             bulletsCheck: 'please',
@@ -98,22 +108,22 @@ module.exports = {
         
     ],
     // Optional: List your skills, they must have `name` and `description`.
-    skills: [
-      {
-        name: 'Languages & Frameworks',
-        description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
-      },
-      {
-        name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
-      },
-      {
-        name: 'Other',
-        description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
-      },
-    ],
+    //skills: [
+    //  {
+    //    name: 'Languages & Frameworks',
+    //    description:
+    //      'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+    //  },
+    //  {
+    //    name: 'Databases',
+    //    description: 'MongoDB, PostreSQL, MySQL',
+    //  },
+    //  {
+    //    name: 'Other',
+    //    description:
+    //      'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+    //  },
+    //],
   },
     plugins: [
 
