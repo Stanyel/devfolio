@@ -24,16 +24,16 @@ module.exports = {
             description: '',
             link: 'http://stangalloway.com/blog/Wheeltrak/',
       },
-      {
-        name: 'ECG Signal Recovery Timer',
-        description:'',
-          link: 'http://stangalloway.com/blog/ECGRT/',
-        },
-        {
-            name: "Remote Falloff ECG Fixture",
-            description: '',
-            link: 'http://stangalloway.com/blog/RemoteFalloff/',
-        },
+      //{
+      //  name: 'ECG Signal Recovery Timer',
+      //  description:'',
+      //    link: 'http://stangalloway.com/blog/ECGRT/',
+      //  },
+        //{
+        //    name: "Remote Falloff ECG Fixture",
+        //    description: '',
+        //    link: 'http://stangalloway.com/blog/RemoteFalloff/',
+        //},
       {
         name: 'SailBot: Ship Happens',
           description: '',
@@ -59,7 +59,7 @@ module.exports = {
         duty: 'Contributed to R&D behind an automated wearable cardioverter defibrillator created to protect patients at risk of sudden cardiac arrest',
         bullets2: 'Designed multiple PCBs to streamline testing and data\
                   collection of high-voltage critical system operations',
-        bullets: 'Wrote then ran system wide compliance tests for a class 3 medical\
+        bullets: 'Wrote then ran system-wide compliance tests for a class 3 medical\
                   device in accordance with FDA standards and protocols',
             bullets2:'please',  //This worked fine but I cant figure out where I can make these field "non-nullable" sooooooooooooooooo
             bullets3: 'please',
@@ -79,7 +79,7 @@ module.exports = {
         name: 'Undergraduate Student Researcher',
         description: 'University of Pittsburgh School of Heath and Rehabilitation Sciences | Summer 2021',
         link: 'https://www.shrs.pitt.edu/',
-        duty: 'Designed and programmed a wheel chair monitoring device to collect environmental data.',
+        duty: 'Designed and programmed a wheelchair monitoring device to collect environmental data.',
         bullets: 'Controlled 3 peripheral sensors using an embedded MCU',
         bullets2: 'Optimized system for low-power consumption',
             bullets3: 'Programmed MCU with C++, interfaced on-board devices using I2C',
@@ -99,7 +99,7 @@ module.exports = {
             name: 'Design Intern',
             description: 'Farr Yacht Desgin | Fall 2017',
             link: 'http://www.farrdesign.com/',
-            duty: 'Developed computer models of yacht hulls and conducted analysis of alternatives of industry rigging hardware to optimize performance',
+            duty: 'Developed computer models of yacht hulls and analyzed alternatives of industry rigging hardware to optimize performance',
             bullets:'please',
             bullets2:'please',
             bullets3:'please',
