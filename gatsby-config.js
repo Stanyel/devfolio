@@ -51,17 +51,27 @@ module.exports = {
         //},
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
-    experience: [
+        experience: [
+
+      {
+        name: 'Electrical Engineering Intern',
+        description: 'Gecko Robotics | Summer 2022',
+        link: 'https://www.geckorobotics.com/',
+        duty: 'TBD',
+        bullets: 'please',
+        bullets2:'please',  //This worked fine but I cant figure out where I can make these field "non-nullable" sooooooooooooooooo
+        bullets3: 'please',
+        bulletsCheck: 'please',
+      },
       {
         name: 'Hardware Engineering Co-op',
         description: 'ZOLL Medical Corportation | Spring 2021 and Fall 2021',
         link: 'https://lifevest.zoll.com/',
         duty: 'Contributed to R&D behind an automated wearable cardioverter defibrillator created to protect patients at risk of sudden cardiac arrest',
-        bullets2: 'Designed multiple PCBs to streamline testing and data\
-                  collection of high-voltage critical system operations',
         bullets: 'Wrote then ran system-wide compliance tests for a class 3 medical\
                   device in accordance with FDA standards and protocols',
-            bullets2:'please',  //This worked fine but I cant figure out where I can make these field "non-nullable" sooooooooooooooooo
+        bullets2: 'Designed multiple PCBs to streamline testing and data\
+                  collection of high-voltage critical system operations',
             bullets3: 'please',
             bulletsCheck: 'please',
         },
