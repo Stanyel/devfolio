@@ -38,7 +38,7 @@ module.exports = {
           name: 'SailBot: Hurry Up',
           description: '',
           link: 'https'
-      }
+      },
       {
         name: 'SailBot: Ship Happens',
           description: '',
