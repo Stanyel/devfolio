@@ -26,13 +26,12 @@ const SummaryItem = ({ name, description, duty, bullets, bullets2, bullets3, bul
         //Create 3 bullet points
         return (
             <div className={classes.wrapper}>
-                <h3 className={classes.name}>{name}</h3>
-                <p
-                    className={`${classes.description} ${link ? 'hover:underline hover:text-black' : ''
+                <h3
+                    className={`${classes.name} ${link ? 'hover:underline hover:text-black' : ''
                         }`}
                 >
-                    {link ? linkContent : description}
-                </p>
+                    {link ? linkContent : name}
+                </h3>
                 <p className={classes.description}>{description}</p>
                 <div className={classes.wrapper} style={spacing}>
                     <ul>
