@@ -17,9 +17,9 @@ const classes = {
 const SummaryItem = ({ name, description, duty, bullets, bullets2, bullets3, bulletsCheck, link = false, internal = false }) => {
     let linkContent;
     if (internal) {
-        linkContent = <Link to={link}>{description}</Link>;
+        linkContent = <Link to={link}>{name}</Link>;
     } else {
-        linkContent = <a href={link}>{description}</a>;
+        linkContent = <a href={link}>{name}</a>;
     }
 
     if (bullets3 !== bulletsCheck) {
