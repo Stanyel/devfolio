@@ -1,9 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\content",
+    "\\content\\blog",
+    "\\content\\blog\\Wheeltrak",
     "\\src",
-    "\\src\\components",
-    "\\src\\components\\section-about"
+    "\\src\\components"
   ],
   "SelectedNode": "\\gatsby-config.js",
   "PreviewInSolutionExplorer": false

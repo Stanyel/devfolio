@@ -35,6 +35,11 @@ module.exports = {
         //    link: 'http://stangalloway.com/blog/RemoteFalloff/',
         //},
       {
+          name: 'SailBot: Hurry Up',
+          description: '',
+          link: 'https'
+      }
+      {
         name: 'SailBot: Ship Happens',
           description: '',
           link: 'http://stangalloway.com/blog/ShipHappens/',
@@ -44,11 +49,7 @@ module.exports = {
             description: '',
             link: 'http://stangalloway.com/blog/Atten/',
         },
-        //{
-        //    name: 'Pittsburgh SOAR',
-        //    description: 'A club that competes in the annual Big Idea Challenge hosted by NASA, the 2022 challenge is extreme terrain access for mobility platforms',
-        //    link:'',
-        //},
+
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
         experience: [
@@ -57,12 +58,13 @@ module.exports = {
         name: 'Electrical Engineering Intern',
         description: 'Gecko Robotics | Summer 2022',
         link: 'https://www.geckorobotics.com/',
-        duty: 'TBD',
+        duty: 'Worked alongside the electronics hardware team doing R&D on a wall climbing inspection robot. Led design and release of an upgrade for legacy robots to improve reliability through forward compatibility with both firmware and hardware.',
         bullets: 'please',
-        bullets2:'please',  //This worked fine but I cant figure out where I can make these field "non-nullable" sooooooooooooooooo
+        bullets2:'please',  //This worked fine but I cant figure out where I can make these field "non-nullable" sooooooooooooooooo 'please' will make the bullet blank
         bullets3: 'please',
         bulletsCheck: 'please',
       },
+
       {
         name: 'Hardware Engineering Co-op',
         description: 'ZOLL Medical Corportation | Spring 2021 and Fall 2021',
@@ -76,7 +78,7 @@ module.exports = {
             bulletsCheck: 'please',
         },
         {
-        name: 'SailBot at Pitt',
+        name: 'Pitt SailBot',
         description: 'Founding President | February 2019 - Present',
         link: 'https://www.linkedin.com/company/pitt-sailbot',
         duty: 'President and founder of SailBot at Pitt, an organization where students design, code, and fabricate an autonomous sailboat to compete in the annual International Robotic Sailing Regatta.',
