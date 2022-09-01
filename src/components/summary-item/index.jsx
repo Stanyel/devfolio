@@ -17,22 +17,23 @@ const classes = {
 const SummaryItem = ({ name, description, duty, bullets, bullets2, bullets3, bulletsCheck, link = false, internal = false }) => {
     let linkContent;
     if (internal) {
-        linkContent = <Link to={link}>{name}</Link>;
+        linkContent = <Link to={link}>{description}</Link>;
     } else {
-        linkContent = <a href={link}>{name}</a>;
+        linkContent = <a href={link}>{description}</a>;
     }
 
     if (bullets3 !== bulletsCheck) {
         //Create 3 bullet points
         return (
             <div className={classes.wrapper}>
-                <h3 className={classes.name}>{duty}</h3>
+                <h3 className={classes.name}>{name}</h3>
                 <p
                     className={`${classes.description} ${link ? 'hover:underline hover:text-black' : ''
                         }`}
                 >
                     {link ? linkContent : description}
                 </p>
+                <p className={classes.description}>{description}</p>
                 <div className={classes.wrapper} style={spacing}>
                     <ul>
                         <li><p className={classes.duty}>{duty}</p></li>
@@ -50,13 +51,13 @@ const SummaryItem = ({ name, description, duty, bullets, bullets2, bullets3, bul
         //Create 2 bullet points
         return (
             <div className={classes.wrapper}>
-                <h3 className={classes.name}>{duty}</h3>
-                <p
-                    className={`${classes.description} ${link ? 'hover:underline hover:text-black' : ''
+                <h3
+                    className={`${classes.name} ${link ? 'hover:underline hover:text-black' : ''
                         }`}
                 >
-                    {link ? linkContent : description}
-                </p>
+                    {link ? linkContent : name}
+                </h3>
+                <p className={classes.description}>{description}</p>
                 <div className={classes.wrapper} style={spacing}>
                     <ul>
                         <li><p className={classes.duty}>{duty}</p></li>
@@ -73,13 +74,13 @@ const SummaryItem = ({ name, description, duty, bullets, bullets2, bullets3, bul
         //Create 1 bullet point
         return (
             <div className={classes.wrapper}>
-                <h3 className={classes.name}>{duty}</h3>
-                <p
-                    className={`${classes.description} ${link ? 'hover:underline hover:text-black' : ''
+                <h3
+                    className={`${classes.name} ${link ? 'hover:underline hover:text-black' : ''
                         }`}
                 >
-                    {link ? linkContent : description}
-                </p>
+                    {link ? linkContent : name}
+                </h3>
+                <p className={classes.description}>{description}</p>
                 <div className={classes.wrapper} style={spacing}>
                     <ul>
                         <li><p className={classes.duty}>{duty}</p></li>
@@ -95,13 +96,13 @@ const SummaryItem = ({ name, description, duty, bullets, bullets2, bullets3, bul
         //Create only the duty section
         return (
             <div className={classes.wrapper}>
-                <h3 className={classes.name}>{duty}</h3>
-                <p
-                    className={`${classes.description} ${link ? 'hover:underline hover:text-black' : ''
+                <h3
+                    className={`${classes.name} ${link ? 'hover:underline hover:text-black' : ''
                         }`}
                 >
-                    {link ? linkContent : description}
-                </p>
+                    {link ? linkContent : name}
+                </h3>
+                <p className={classes.description}>{description}</p>
                 <div className={classes.wrapper} style={spacing}>
                     <ul>
                         <li><p className={classes.duty}>{duty}</p></li>
