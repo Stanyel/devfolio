@@ -59,11 +59,8 @@ module.exports = {
         description: 'Gecko Robotics | Summer 2022',
         link: 'https://www.geckorobotics.com/',
         duty: 'Worked alongside the electronics hardware team doing R&D on a wall climbing inspection robot. Led design and release of an upgrade for legacy robots to improve reliability through forward compatibility with both firmware and hardware.',
-        bullets: 'Legacy robot upgrades extended the lifetime of 30+ robots past their anticipated extinction\
-                  by eliminating their most prominent failure mode and dependence on unreliable/OOS hardware\n\
-                  - Designed interface board to translate serial communication protocols between sub- devices\n\
-                  - Wrote firmware to allow dynamic bus allocation among multiple MCUs within the robot and modified protobuf structure for more reliable data transmission\n\
-                  - Coordinated with mechanical engineers and technicians to plan a smooth bring-up and execution of the upgrade',
+        bullets: 'Legacy robot upgrades extended the lifetime of 30+ robots past their anticipated <br> extinction\
+                  by eliminating their most prominent failure mode and dependence on unreliable/OOS hardware',
         bullets2:'Created an SFP switching board to test an ethernet redundancy model for robot to ground communication. Design implemented high-speed differential pair routing and impedance matching at 4.5 Gbps ',  
         bullets3: 'Integrated changes into a matured hardware and firmware framework and systematically debugged problems encountered in the process',
         bulletsCheck: 'please',
