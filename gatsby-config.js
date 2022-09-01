@@ -36,17 +36,17 @@ module.exports = {
         //},
       {
           name: 'SailBot: Hurry Up',
-          description: '',
+          description: "SailBot's 2nd Boat",
           link: 'https'
       },
       {
         name: 'SailBot: Ship Happens',
-          description: '',
+          description: "SailBot's 1st boat",
           link: 'http://stangalloway.com/blog/ShipHappens/',
         },
         {
-            name: 'RF Attenuation Test Board',
-            description: '',
+            name: 'PCB Portfolio',
+            description: 'A comprehensive list of all my design experience',
             link: 'http://stangalloway.com/blog/Atten/',
         },
 
@@ -59,9 +59,9 @@ module.exports = {
         description: 'Gecko Robotics | Summer 2022',
         link: 'https://www.geckorobotics.com/',
         duty: 'Worked alongside the electronics hardware team doing R&D on a wall climbing inspection robot. Led design and release of an upgrade for legacy robots to improve reliability through forward compatibility with both firmware and hardware.',
-        bullets: 'please',
-        bullets2:'please',  //This worked fine but I cant figure out where I can make these field "non-nullable" sooooooooooooooooo 'please' will make the bullet blank
-        bullets3: 'please',
+        bullets: 'Legacy robot upgrades extended the lifetime of 30+ robots past their anticipated extinction by eliminating their most prominent failure mode and dependence on unreliable/OOS hardware',
+        bullets2:'Created an SFP switching board to test an ethernet redundancy model for robot to ground communication. Design implemented high-speed differential pair routing and impedance matching at 4.5 Gbps ',  
+        bullets3: 'Integrated changes into a matured hardware and firmware framework and systematically debugged problems encountered in the process',
         bulletsCheck: 'please',
       },
 
