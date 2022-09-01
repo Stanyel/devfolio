@@ -54,18 +54,22 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
         experience: [
 
-      {
+        {
         name: 'Electrical Engineering Intern',
         description: 'Gecko Robotics | Summer 2022',
         link: 'https://www.geckorobotics.com/',
         duty: 'Worked alongside the electronics hardware team doing R&D on a wall climbing inspection robot. Led design and release of an upgrade for legacy robots to improve reliability through forward compatibility with both firmware and hardware.',
-        bullets: 'Legacy robot upgrades extended the lifetime of 30+ robots past their anticipated extinction by eliminating their most prominent failure mode and dependence on unreliable/OOS hardware',
+        bullets: 'Legacy robot upgrades extended the lifetime of 30+ robots past their anticipated extinction\
+                  by eliminating their most prominent failure mode and dependence on unreliable/OOS hardware\n\
+                  - Designed interface board to translate serial communication protocols between sub- devices\n\
+                  - Wrote firmware to allow dynamic bus allocation among multiple MCUs within the robot and modified protobuf structure for more reliable data transmission\n\
+                  - Coordinated with mechanical engineers and technicians to plan a smooth bring-up and execution of the upgrade',
         bullets2:'Created an SFP switching board to test an ethernet redundancy model for robot to ground communication. Design implemented high-speed differential pair routing and impedance matching at 4.5 Gbps ',  
         bullets3: 'Integrated changes into a matured hardware and firmware framework and systematically debugged problems encountered in the process',
         bulletsCheck: 'please',
-      },
+        },
 
-      {
+        {
         name: 'Hardware Engineering Co-op',
         description: 'ZOLL Medical Corportation | Spring 2021 and Fall 2021',
         link: 'https://lifevest.zoll.com/',
@@ -78,16 +82,6 @@ module.exports = {
         bulletsCheck: 'please',
         },
         {
-        name: 'Pitt SailBot',
-        description: 'Founding President | February 2019 - Present',
-        link: 'https://www.linkedin.com/company/pitt-sailbot',
-        duty: 'President and founder of SailBot at Pitt, an organization where students design, code, and fabricate an autonomous sailboat to compete in the annual International Robotic Sailing Regatta.',
-        bullets: 'Co-wrote proposal for university sponsorship, recruited faculty administrator, and defended a proposal to receive university accreditation as an intramural organization',
-        bullets2: 'Developed requirements and tested implementations of automation software, RF- based hardware, and environmental sensing systems',
-        bullets3: 'please',
-        bulletsCheck: 'please',
-        },
-        { 
         name: 'Undergraduate Student Researcher',
         description: 'University of Pittsburgh School of Heath and Rehabilitation Sciences | Summer 2021',
         link: 'https://www.shrs.pitt.edu/',
@@ -95,6 +89,16 @@ module.exports = {
         bullets: 'Controlled 3 peripheral sensors using an embedded MCU',
         bullets2: 'Optimized system for low-power consumption',
         bullets3: 'Programmed MCU with C++, interfaced on-board devices using I2C',
+        bulletsCheck: 'please',
+        },
+        {
+        name: 'Pitt SailBot',
+        description: 'Founding President | February 2019 - Present',
+        link: 'https://www.linkedin.com/company/pitt-sailbot',
+        duty: 'President and founder of SailBot at Pitt, an organization where students design, code, and fabricate an autonomous sailboat to compete in the annual International Robotic Sailing Regatta.',
+        bullets: 'Co-wrote proposal for university sponsorship, recruited faculty administrator, and defended a proposal to receive university accreditation as an intramural organization',
+        bullets2: 'Developed requirements and tested implementations of automation software, RF- based hardware, and environmental sensing systems',
+        bullets3: 'please',
         bulletsCheck: 'please',
         },
         {
