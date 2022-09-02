@@ -61,8 +61,8 @@ module.exports = {
         duty: 'Worked alongside the electronics hardware team doing R&D on a wall climbing inspection robot. Led design and release of an upgrade for legacy robots to improve reliability through forward compatibility with both firmware and hardware.',
         bullets: 'Legacy robot upgrades extended the lifetime of 30+ robots past their anticipated extinction\
                   by eliminating their most prominent failure mode and dependence on unreliable/OOS hardware',
-        bullets2:'Created an SFP switching board to test an ethernet redundancy model for robot to ground communication. Design implemented high-speed differential pair routing and impedance matching at 4.5 Gbps ',  
-        bullets3: 'Created interface board to translate serial communication protocol between sub-devices, wrote firmware to add dynamic bus allocation and improving protobuf data reliability and coordinated with multiple departments to plan a smooth bring up/execution of the upgrade',
+        bullets2: 'To implement this upgrade I created an interface board to translate serial communication protocol between sub-devices, wrote firmware to add dynamic bus allocation and to improve protobuf data reliability, then coordinated with multiple departments to plan a smooth bring up/execution',
+        bullets3: 'Designed an SFP switching board to test an ethernet redundancy model for robot to ground communication. Design implemented high-speed differential pair routing and impedance matching at 4.5 Gbps ',
         bulletsCheck: 'please',
         },
 
