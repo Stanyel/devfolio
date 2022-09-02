@@ -37,7 +37,7 @@ module.exports = {
       {
           name: 'SailBot: Hurry Up',
           description: "SailBot's 2nd Boat",
-          link: 'https'
+          link: 'http://stangalloway.com/blog/HurryUp/'
       },
       {
         name: 'SailBot: Ship Happens',
