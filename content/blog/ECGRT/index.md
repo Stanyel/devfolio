@@ -15,8 +15,3 @@ Features included are...
 
 
 With this boat, we were able to compete in our first ever Internation Robotics Sailing Regatta since the creation of Pitt SailBot. Although there was much to improve upon we were able to take home 3rd place :)
-
-![hurryup](./hurryup.png)
-![cad](./cad.png) 
-![wired](./wired.png)
-![boyz](./boyz.png)
