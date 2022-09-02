@@ -3,10 +3,13 @@
     "",
     "\\content",
     "\\content\\blog",
+    "\\content\\blog\\Atten",
+    "\\content\\blog\\ECGRT",
     "\\content\\blog\\Wheeltrak",
     "\\src",
-    "\\src\\components"
+    "\\src\\components\\section-experience",
+    "\\src\\components\\summary-item"
   ],
-  "SelectedNode": "\\gatsby-config.js",
+  "SelectedNode": "\\content\\blog\\ECGRT\\index.md",
   "PreviewInSolutionExplorer": false
 }
