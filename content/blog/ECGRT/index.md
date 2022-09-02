@@ -17,4 +17,3 @@ The device is inteded to be mounted on a wheelchair and passively collect data f
 Think of it like a fitbit for wheelchairs.
 
 This device was made under the advisment of Dr. Anand Mhatre and Dr. Gurleyik Kilichan.
-![WheelTrack](./wheeltrak1.png)

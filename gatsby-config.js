@@ -29,16 +29,16 @@ module.exports = {
       //  description:'',
       //    link: 'http://stangalloway.com/blog/ECGRT/',
         //},
-        {
-            name: "Remote Falloff ECG Fixture",
-            description: '',
-            link: 'http://stangalloway.com/blog/RemoteFalloff/',
-        },
-      //{
-      //    name: 'SailBot: Hurry Up',
-      //    description: "SailBot's 2nd Boat",
-      //    link: 'http://stangalloway.com/blog/HurryUp/',
-      //},
+        //{
+        //    name: "Remote Falloff ECG Fixture",
+        //    description: '',
+        //    link: 'http://stangalloway.com/blog/RemoteFalloff/',
+        //},
+      {
+          name: 'SailBot: Hurry Up',
+          description: "SailBot's 2nd Boat",
+          link: 'http://stangalloway.com/blog/ECGRT/',
+      },
       {
         name: 'SailBot: Ship Happens',
           description: "SailBot's 1st boat",
