@@ -93,7 +93,7 @@ module.exports = {
         description: 'Founding President | February 2019 - Present',
         link: 'https://www.linkedin.com/company/pitt-sailbot',
         duty: 'President and founder of SailBot at Pitt, an organization where students design, code, and fabricate an autonomous sailboat to compete in the annual International Robotic Sailing Regatta.',
-            bullets1: 'Designed motherboard to interface the MCU, internal sensors, and power distribution via custom BMS. Also contributed to automation/locolization software',
+            bullets: 'Designed motherboard to interface the MCU, internal sensors, and power distribution via custom BMS. Also contributed to automation/locolization software',
             bullets2: 'Placed 3rd at the 2022 International SailBot Competition',
             bullets3: 'Co-wrote proposal for university sponsorship, recruited faculty administrator, and defended a proposal to receive university accreditation as an intramural organization',
         bulletsCheck: 'please',
