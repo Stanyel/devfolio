@@ -44,11 +44,11 @@ module.exports = {
           description: "SailBot's 1st boat",
           link: 'http://stangalloway.com/blog/ShipHappens/',
         },
-        {
-            name: 'PCB Portfolio',
-            description: 'A comprehensive list of all my design experience',
-            link: 'http://stangalloway.com/blog/Atten/',
-        },
+        //{
+        //    name: 'PCB Portfolio',
+        //    description: 'A comprehensive list of all my design experience',
+        //    link: 'http://stangalloway.com/blog/Atten/',
+        //},
 
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
