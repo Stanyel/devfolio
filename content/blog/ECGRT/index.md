@@ -3,17 +3,20 @@ title: WheelTrak
 date: '2021-10-23T12:00:00.00Z'
 description: 'Embedded system that monitors environmental data on wheelchairs'
 ---
-## This board comes equiped with:
-- Embedded MSP430 selected for low-power consumption
-- Sensors for 9 different data points
-- Power control system
-- microSD Card interface
-- 4 Layers: 2 Signal, power, and ground
+Hurry Up is the name of the second boat built by SailBot at Pitt, named for how long it took to complete. 
 
-Programming was done on the MCU in C++ and peripherals were controlled with I2C
 
-The device is inteded to be mounted on a wheelchair and passively collect data for <6 weeks that will be sent back to an app the user can monitor with their phone. Using this app, you can get information on the condition of specific parts of the wheelchair and stats of daily use.
+My contributions to the were mainly in the electronics hardware, namely the motherboard which served to mount all internal sensors and the MCU (raspberry pi 4). 
+Features included are...
+- Custom designed BMS to handle power distribution and battery safety/reliability
+- Board interfaces that internally route most device to device connections to minimize wire volume
+- Unique mechanical contraints that included relying on the motherboard to provide lateral support for the boat's hull
 
-Think of it like a fitbit for wheelchairs.
 
-This device was made under the advisment of Dr. Anand Mhatre and Dr. Gurleyik Kilichan.
+
+With this boat, we were able to compete in our first ever Internation Robotics Sailing Regatta since the creation of Pitt SailBot. Although there was much to improve upon we were able to take home 3rd place :)
+
+![hurryup](./hurryup.png)
+![cad](./cad.png) 
+![wired](./wired.png)
+![boyz](./boyz.png)
