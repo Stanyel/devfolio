@@ -1,5 +1,5 @@
 ---
-title: "Raspberry Pi GPIO Protection Hat",
+title: Raspberry Pi GPIO Protection Hat
 date: '2022-11-8T12:00:00.00Z'
 description: 'Building a protection circuit for the Raspberry Pi GPIO'
 ---
