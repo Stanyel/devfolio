@@ -3,13 +3,11 @@
     "",
     "\\content",
     "\\content\\blog",
-    "\\content\\blog\\Atten",
-    "\\content\\blog\\ECGRT",
+    "\\content\\blog\\GPIOProt",
     "\\content\\blog\\Wheeltrak",
     "\\src",
-    "\\src\\components\\section-experience",
-    "\\src\\components\\summary-item"
+    "\\src\\components",
+    "\\src\\components\\blog-posts"
   ],
-  "SelectedNode": "\\content\\blog\\ECGRT\\index.md",
   "PreviewInSolutionExplorer": false
 }

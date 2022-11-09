@@ -11,14 +11,19 @@ module.exports = {
     // Optional: Twitter account handle
    //    author: `@lolnah`,
     // Optional: Github account URL
-        github: `https://github.com/Stanyel`,
     // Optional: LinkedIn account URL
         linkedin: `https://www.linkedin.com/in/stanley-galloway/`,
 
     // Content of the About Me section
-    about: '',
+    about: 'I wonder what this will look like',
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
+      {
+            name: "Raspberry Pi GPIO Protection Hat",
+            description: 'The Raspberry Pi is a great MCU but their rising price has made it very costly to break. In fast paced environments where wires are exposed and rerouted frequently, \
+                          shorting two pins and frying the whole Pi is inevtiable which is what this board is built to protect',
+            link: 'http://stangalloway.com/blog/GPIOProt',
+       },
       {
         name: 'WheelTrak',
         description: '',
