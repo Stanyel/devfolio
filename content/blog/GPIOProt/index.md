@@ -5,6 +5,8 @@ description: 'Building a protection circuit for the Raspberry Pi GPIO'
 ---
 
 After damaging multiple Raspberry Pi's from shorting pins to other, less friendly, contacts I decided that it would be a good idea to create a circuit that would protects those inputs from ESD, overvotlage and overcurrent. This board would need to work for all data rates from the Pi and protect the power pins of the Pi.
+
+This board takes the 20x2 pinout from the Pi and translates it an identical but protected output on the right side of the board.
 ![Solo1](./Solo1.jpg)
 
 ## Components

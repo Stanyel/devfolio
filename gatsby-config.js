@@ -20,13 +20,13 @@ module.exports = {
     projects: [
       {
             name: "Raspberry Pi GPIO Protection Hat",
-            description: 'The Raspberry Pi is a great MCU but their rising price has made it very costly to break. In fast paced environments where wires are exposed and rerouted frequently, \
-                          shorting two pins and frying the whole Pi is inevtiable which is what this board is built to protect',
+            description: 'In fast-paced environments where wires are exposed and rerouted frequently, shorting two pins and frying the whole Pi is inevitable and with their\
+                          rising price, is becoming a very costly mistake. This board was created to solve this problem',
             link: 'http://stangalloway.com/blog/GPIOProt',
        },
       {
         name: 'WheelTrak',
-        description: '',
+        description: 'A small and low power board designed to be the fitbit of wheelchairs',
         link: 'http://stangalloway.com/blog/Wheeltrak/',
       },
       //{
@@ -41,12 +41,12 @@ module.exports = {
         //},
       {
           name: 'SailBot: Hurry Up',
-          description: "SailBot's 2nd Boat",
+          description: "SailBot's 2nd Boat - My main contribution is the design and fabrication of the motherboard and BMS",
           link: 'http://stangalloway.com/blog/ECGRT/',
       },
       {
         name: 'SailBot: Ship Happens',
-          description: "SailBot's 1st boat",
+          description: "SailBot's 1st Boat",
           link: 'http://stangalloway.com/blog/ShipHappens/',
         },
         //{
