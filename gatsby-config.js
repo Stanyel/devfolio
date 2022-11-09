@@ -15,7 +15,8 @@ module.exports = {
         linkedin: `https://www.linkedin.com/in/stanley-galloway/`,
 
     // Content of the About Me section
-    about: 'I wonder what this will look like',
+        about: 'Hello! Thank you for visiting my website. I am an electrical engineer interested in hardware design and robotics.\
+                In the Projects section you can see a portfolio of some of my personal work. In experience you can find work I have done for various companies/organizations',
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
