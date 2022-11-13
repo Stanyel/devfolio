@@ -3,11 +3,14 @@
     "",
     "\\content",
     "\\content\\blog",
-    "\\content\\blog\\GPIOProt",
-    "\\content\\blog\\Wheeltrak",
+    "\\content\\blog\\Atten",
+    "\\content\\blog\\ECGRT",
+    "\\content\\blog\\ShipHappens",
     "\\src",
     "\\src\\components",
-    "\\src\\components\\blog-posts"
+    "\\src\\components\\blog-posts",
+    "\\src\\images"
   ],
+  "SelectedNode": "\\content\\blog\\ShipHappens\\index.md",
   "PreviewInSolutionExplorer": false
 }

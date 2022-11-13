@@ -7,13 +7,13 @@ Hurry Up is Pitt SailBot's 2nd boat created. I lead the design of the electronic
 
 ![hurry](./hurry.png)
 
-My contributions to the were mainly in the electronics hardware, namely the motherboard which served to mount all internal sensors and the MCU (raspberry pi 4). 
+My contributions to the were mainly in the electronics hardware, namely the motherboard which served to mount all internal sensors and the MCU (Raspberry Pi 4B). 
 
 ## Motherboard:
 - Custom designed BMS to handle power distribution and battery safety/reliability
 - Board interfaces that internally route most device to device connections to minimize wire volume
 - Unique connector duplicating the scenario we need to change a connection, it is easy to do so without moving the board from its mount. 
-- Mechanical contraints include using the motherboard to provide lateral support for the boat's hull
+- Mechanical constraints include using the motherboard to provide lateral support for the boat's hull
 
 ![cad](./cad.png) 
 ![wired](./wired.png)

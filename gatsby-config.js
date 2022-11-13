@@ -16,7 +16,7 @@ module.exports = {
 
     // Content of the About Me section
         about: 'Hello! Thank you for visiting my website. I am an electrical engineer interested in hardware design and robotics.\
-                In the Projects section you can see a portfolio of some of my personal work. In experience you can find work I have done for various companies/organizations',
+                In the Projects section, you can see a portfolio of some of my personal work. In experience, you can find work I have done for various companies/organizations',
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -73,10 +73,10 @@ module.exports = {
 
         {
         name: 'Hardware Engineering Co-op',
-        description: 'ZOLL Medical Corportation | Spring 2021 and Fall 2021',
+        description: 'ZOLL Medical Corporation | Spring 2021 and Fall 2021',
         link: 'https://lifevest.zoll.com/',
         duty: 'Contributed to R&D behind an automated wearable cardioverter defibrillator created to protect patients at risk of sudden cardiac arrest',
-        bullets: 'Wrote then ran system-wide compliance tests for a class 3 medical\
+        bullets: 'Wrote and ran system-wide compliance tests for a class 3 medical\
                   device in accordance with FDA standards and protocols',
         bullets2: 'Designed multiple PCBs to streamline testing and data\
                   collection of high-voltage critical system operations',
@@ -85,7 +85,7 @@ module.exports = {
         },
         {
         name: 'Undergraduate Student Researcher',
-        description: 'University of Pittsburgh School of Heath and Rehabilitation Sciences | Summer 2021',
+        description: 'University of Pittsburgh School of Health and Rehabilitation Sciences | Summer 2021',
         link: 'https://www.shrs.pitt.edu/',
         duty: 'Designed and programmed a wheelchair monitoring device to collect environmental data.',
         bullets: 'Controlled 3 peripheral sensors using an embedded MCU',
@@ -98,7 +98,7 @@ module.exports = {
         description: 'Founding President | February 2019 - Present',
         link: 'https://www.linkedin.com/company/pitt-sailbot',
         duty: 'President and founder of SailBot at Pitt, an organization where students design, code, and fabricate an autonomous sailboat to compete in the annual International Robotic Sailing Regatta.',
-            bullets: 'Designed motherboard to interface the MCU, internal sensors, and power distribution via custom BMS. Also contributed to automation/locolization software',
+            bullets: 'Designed motherboard to interface the MCU, internal sensors, and power distribution via custom BMS. Also contributed to automation/localization software',
             bullets2: 'Placed 3rd at the 2022 International SailBot Competition',
             bullets3: 'Co-wrote proposal for university sponsorship, recruited faculty administrator, and defended a proposal to receive university accreditation as an intramural organization',
         bulletsCheck: 'please',
@@ -115,7 +115,7 @@ module.exports = {
         },
         {
         name: 'Design Intern',
-        description: 'Farr Yacht Desgin | Fall 2017',
+        description: 'Farr Yacht Design | Fall 2017',
         link: 'http://www.farrdesign.com/',
         duty: 'Developed computer models of yacht hulls and analyzed alternatives of industry rigging hardware to optimize performance',
         bullets:'please',
